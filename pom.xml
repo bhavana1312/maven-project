@@ -13,6 +13,7 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+<sonar.organization>bhavana1312</sonar.organization>
     </properties>
 
     <build>
@@ -26,11 +27,7 @@
                     <target>${maven.compiler.target}</target>
                 </configuration>
             </plugin>
-         <plugin>
-            <groupId>org.sonarsource.scanner.maven</groupId>
-            <artifactId>sonar-maven-plugin</artifactId>
-            <version>4.0.0.4121</version>
-        </plugin>
+        
 
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
